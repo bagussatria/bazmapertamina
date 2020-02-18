@@ -1,0 +1,577 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"php"
+			],
+			[
+				"level1",
+				"Level1"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"R",
+				"Rp"
+			],
+			[
+				"Chane",
+				"ChangeChannel"
+			],
+			[
+				"s",
+				"substring"
+			],
+			[
+				"pa",
+				"parseInt"
+			],
+			[
+				"STR",
+				"str"
+			],
+			[
+				"for",
+				"form-control"
+			],
+			[
+				"co",
+				"col-md-10"
+			],
+			[
+				"bt",
+				"btn-success"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"b",
+				"button"
+			],
+			[
+				"col",
+				"col-md-10"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"c",
+				"container"
+			],
+			[
+				"bo",
+				"bootstrap"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "header.html",
+			"settings":
+			{
+				"buffer_size": 77816,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "footer.html",
+			"settings":
+			{
+				"buffer_size": 8320,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n<!DOCTYPE html>\n<html dir=\"ltr\" lang=\"en\">\n\n<head>\n\n<meta name=\"viewport\" content=\"text/html; charset=UTF-8; width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no\">\n\n\n<link id=\"favicon\" rel=\"icon\" href=\"https://baznas.go.id/application/views/assets/images/gallery/favicon.png\" rel=\"shortcut icon\" type=\"image/png\" type=\"image/x-icon\">\n\n<link href=\"https://baznas.go.id/application/views/assets/images/gallery/favicon.png\" rel=\"shortcut icon\" type=\"image/png\">\n<link href=\"https://baznas.go.id/application/views/assets/images/gallery/apple-touch-icon.png\" rel=\"apple-touch-icon\">\n<link href=\"https://baznas.go.id/application/views/assets/images/gallery/apple-touch-icon-72x72.png\" rel=\"apple-touch-icon\" sizes=\"72x72\">\n<link href=\"https://baznas.go.id/application/views/assets/images/gallery/apple-touch-icon-114x114.png\" rel=\"apple-touch-icon\" sizes=\"114x114\">\n\n</head>\n\n\n<body>\n\n\n\n<link href=\"https://baznas.go.id/application/views/assets/fonts/Roboto-condensed/roboto-condensed.css\" rel=\"stylesheet\">\n\n\n<link href=\"https://baznas.go.id/application/views/assets/css/bootstrap-3.3.7.min.css\" rel=\"stylesheet\">\n\n\n\n<link href=\"https://baznas.go.id/application/views/assets/css/css-plugin-baznas-collections.css\" rel=\"stylesheet\">\n\n\n\n\n<script type=\"text/javascript\" src=\"https://baznas.go.id/application/views/assets/js/custom-baznas.js\"></script>\n\n\n\n<link href=\"https://baznas.go.id/application/views/assets/css/style-main.css\" rel=\"stylesheet\" type=\"text/css\">\n\n\n<link href=\"https://baznas.go.id/application/views/assets/css/custom-bootstrap-margin-padding.css\" rel=\"stylesheet\">\n\n\n<link href=\"https://baznas.go.id/application/views/assets/css/responsive.css\" rel=\"stylesheet\">\n\n\n<link href=\"https://baznas.go.id/application/views/assets/css/colors/theme-skin-green.css\" rel=\"stylesheet\">\n\n\n<script src=\"https://www.google.com/recaptcha/api.js\"></script>\n\n\n<script type='text/javascript' src=\"https://baznas.go.id/application/views/assets/js/jquery-2.2.4.min.js\"></script>\n\n\n    <!-- <script class=\"load-plugin\">\n        $(document).ready(function(){\n            var loadPlugin = {\n                css : $.ajax({ url: $(\".jquery-plugin-css\").data(\"src\")                                                      }),\n                js : $.ajax({ url: $(\".jquery-plugin-js\").data(\"src\")}),\n            };\n\n            var scriptJs = $.ajax({ url: $(\".script-js\").data(\"src\") });\n            $.when(loadPlugin.css, loadPlugin.js, scriptJs).then(function(){\n                loadPlugin.css.done(function(data){ \n                    $(\".jquery-plugin-css\").html(data); \n                });\n                loadPlugin.js.done(function(data){ \n                    $(\".jquery-plugin-js\").html(data); \n                });\n                scriptJs.done(function(data){ \n                    $(\".script-js\").html(data);   \n\n            var fileref = document.createElement(\"link\")\n            fileref.setAttribute(\"rel\", \"stylesheet\")\n            fileref.setAttribute(\"type\", \"text/css\")\n            fileref.setAttribute(\"th:href\", \"@{/filepath}\")\n            fileref.setAttribute(\"href\", \"/filepath\")\n            fileref.setAttribute(\"href\", \"https://baznas.go.id/\")\n\n                });\n            });\n        });\n\n    </script>\n -->\n\n\n<script src=\"https://baznas.go.id/application/views/assets/js/bootstrap-3.3.7.min.js\" ></script>\n\n<script src=\"https://baznas.go.id/application/views/assets/js/jquery-ui-1.21.1.min.js\" ></script>\n\n<script src=\"https://baznas.go.id/application/views/assets/js/sweetalert-2.1.2.min.js\"></script>\n\n\n<script type='text/javascript' src=\"https://baznas.go.id/application/views/assets/js/bootstrap-select-1.13.12.min.jss\"></script>\n\n\n<script src=\"https://baznas.go.id/application/views/assets/js/jquery-plugin-collection.js\"></script>\n\n<link  href=\"https://baznas.go.id/application/views/assets/js/revolution-slider/css/settings.css\" rel=\"stylesheet\">\n\n<link  href=\"https://baznas.go.id/application/views/assets/js/revolution-slider/css/layers.css\" rel=\"stylesheet\">\n\n<link  href=\"https://baznas.go.id/application/views/assets/js/revolution-slider/css/navigation.css\" rel=\"stylesheet\">\n\n\n<script src=\"https://baznas.go.id/application/views/assets/js/revolution-slider/js/jquery.themepunch.tools.min.js\"></script>\n<script src=\"https://baznas.go.id/application/views/assets/js/revolution-slider/js/jquery.themepunch.revolution.min.js\"></script>\n    \n<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-6800595241800017\",\n    enable_page_level_ads: true\n  });\n</script>\n\n\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-777219646\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-777219646'); </script> \n\n\n<script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-777219646/v17JCOCerpgBEL7czfIC', 'event_callback': callback }); return false; } </script> \n\n\n<script src=\"https://baznas.go.id/application/views/assets/js/timepicker.js\"></script>\n<script src=\"https://baznas.go.id/application/views/js/jquery.masknumber.min.js\"></script>\n\n\n<script type=\"text/javascript\">\n  var url = 'https://baznas.go.id/';\n</script>\n<script src=\"https://baznas.go.id/application/views/js/meiomask-1.1.14.js\"></script>\n<script src=\"https://baznas.go.id/application/views/js/website.js?1580780779\"></script>\n\n\n\n<script type=\"text/javascript\" src=\"https://baznas.go.id/application/views/js/jquery.formatCurrency-1.4.0.min.js\"></script>\n\n\n<body class=\"has-side-panel side-panel-right fullwidth-page side-push-panel\">\n<div class=\"body-overlay\"></div>\n   <header class=\"header\">\n    <div class=\"header-top sm-text-center\" style=\"background: #005331\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <div class=\"col-md-3\">\n            <div class=\"widget no-border m-0\">\n              <ul class=\"styled-icons icon-sm sm-text-center hidden-sm hidden-xs\">\n                <li><a href=\"https://www.facebook.com/badanamilzakat/\"><i class=\"fa fa-facebook\" style=\"color: white\"></i></a></li>\n                <li><a href=\"https://twitter.com/baznasindonesia\"><i class=\"fa fa-twitter\" style=\"color: white\"></i></a></li>\n                <li><a href=\"https://www.instagram.com/baznasindonesia/\"><i class=\"fa fa-instagram\" style=\"color: white\"></i></a></li>\n                <li><a href=\"https://id.linkedin.com/in/baznas-indonesia-26537217a\"><i class=\"fa fa-linkedin\" style=\"color: white\"></i></a></li>\n                <li><a href=\"https://www.youtube.com/channel/UCmY29I5na-P9Q108PY5By4w/videos\"><i class=\"fa fa-youtube\" style=\"color: white\"></i></a></li>\n              </ul>\n            </div>\n          </div>\n          <div class=\"col-md-9\">\n            <div class=\"widget no-border m-0\">\n              <ul class=\"list-inline pull-right sm-pull-none sm-text-center mt-5\">\n                <li class=\"m-0 pl-10 pr-10\"> <i class=\"fa fa-phone\" style=\"color: white\"></i> <a style=\"color: white\" href=\"#\"> 021 390 4555</a> </li>\n              <li class=\"m-0 pl-10 pr-10\"> <i class=\"fa fa-envelope-o\" style=\"color: white\"> </i> <a style=\"color: white\" href=\"#\"> baznas@baznas.go.id</a> </li>\n\n              </ul>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"header-nav\">\n      <div class=\"header-nav-wrapper navbar-scrolltofixed bg-lightest\">\n        <div class=\"container\">\n          <nav id=\"menuzord-right\" class=\"menuzord green bg-lightest\">\n            <a class=\"menuzord-brand hidden-md hidden-lg\" href=\"https://baznas.go.id/\">\n\n\n              <img src=\"https://baznas.go.id/application/views/assets/images/logo_baznas_mobile.png\" alt=\"BAZNAS\" style=\"display: block; margin: auto ;\" class=\"center\"></a>\n\n\n            <a class=\"menuzord-brand hidden-xs hidden-sm\" href=\"https://baznas.go.id/\">\n              <img style=\"width: 350px; height: 60px;\" src=\"https://baznas.go.id/application/views/assets/images/gallery/baznas_header.png\" class=\"\" alt=\"BAZNAS\"></a>\n              <ul class=\"menuzord-menu\">\n                <li><a href=\"javascript:void(0)\" style=\"font-family: 'Roboto Condensed', sans-serif;\">TENTANG KAMI</a>\n                  <ul class=\"dropdown\">\n                  <li><a href=\"https://baznas.go.id/profil\">Profil BAZNAS</a></li>\n                  <li><a href=\"javascript:void(0)\">Legal</a>\n                    <ul class=\"dropdown\">\n                      <li><a href=\"http://pid.baznas.go.id/peraturan/\" target=\"_blank\">Perundangan</a>\n                      </li>\n                    </ul>\n                  </li>\n                  <li><a href=\"javascript:void(0)\">Publikasi</a>\n                  <ul class=\"dropdown\">\n\n                    <li><a href=\"https://baznas.go.id/laporan\">Laporan Keuangan</a>\n                    </li>\n                    <li><a href=\"https://baznas.go.id/newsletterterkini\">Newsletter</a>\n                    </li>\n\n                  </ul>\n                </li>\n               <li><a href=\"https://baznas.go.id/karir\">Karir</a></li>\n               \n                <li><a href=\"http://www.pusatpengaduanbaznas.id/\" target=\"_blank\">Pengaduan BAZNAS</a>\n                <li><a href=\"https://baznas.go.id/kontakkami\">Kontak Kami</a>\n                </li>\n              </ul>\n            </li>\n            \n\n            <li><a href=\"javascript:void(0)\" style=\"font-family: 'Roboto Condensed', sans-serif;\">PROGRAM</a>\n              <ul class=\"dropdown\">\n               \n                <li><a href=\"https://baznas.go.id/kurbanberdayakandesa\" style=\"font-family: 'Roboto Condensed', sans-serif;\">KURBAN BERDAYAKAN DESA </a>\n                 \n                </li>\n                <li><a href=\"https://baznas.go.id/ramadhan\" style=\"font-family: 'Roboto Condensed', sans-serif;\">RAMADHAN</a></li>\n                <li><a href=\"javascript:void(0)\">Ekonomi</a>\n                  <ul class=\"dropdown\">\n                    \n\n                    <li><a href=\"https://zcd.baznas.go.id/\" target=\"_blank\">Zakat Community Development</a></li>\n\n\n                    <li><a href=\"https://microfinance.baznas.go.id/\" target=\"_blank\">BAZNAS Microfinance</a></li> \n\n                    <li><a href=\"https://lpem.baznas.go.id/\" target=\"_blank\">Pemberdayaan Ekonomi</a>\n                    <li><a href=\"https://lppm.baznas.go.id/\" target=\"_blank\">Pemberdayaan Peternak</a>\n                                        \n                  </ul> \n                </li>               \n                <li><a href=\"javascript:void(0)\">Sosial</a>\n                  <ul class=\"dropdown\">\n                    <li><a href=\"https://baznas.go.id/lab\">Layanan Aktif BAZNAS</a></li>\n                    <li><a href=\"https://baznas.go.id/btb\">BAZNAS Tanggap Bencana</a></li>\n                    <li><a href=\"https://baznas.go.id/rsb\">Rumah Sehat BAZNAS</a></li>\n                    <li><a href=\"https://baznas.go.id/scb\">Sekolah Cendekia BAZNAS</a></li>\n                    <li><a href=\"javascript:void(0)\">Lembaga Beasiswa BAZNAS</a></li>\n                    </li>\n                  </ul>\n                </li>\n                <li><a href=\"javascript:void(0)\">Dakwah & Advokasi</a>\n                  <ul class=\"dropdown\">\n                    <li><a href=\"https://baznas.go.id/mcb\">Muallaf Center BAZNAS</a></li> -->\n                    <li><a href=\"https://baznas.go.id/puskas\">Pusat Kajian Strategis</a></li>         \n                  </ul> \n                </li>    \n              </ul>\n            </li>\n\n\n            <li><a href=\"https://baznas.go.id/zakat\" style=\"font-family: 'Roboto Condensed', sans-serif;\">ZAKAT</a>\n              <ul class=\"dropdown\">\n                <li><a href=\"https://baznas.go.id/zakat\">Tentang Zakat</a>\n                </li>               \n                <li><a href=\"https://baznas.go.id/id/zakat-fitrah\">Zakat Fitrah</a>\n                </li>\n                <li><a href=\"https://baznas.go.id/id/zakat-maal\"> Zakat Maal</a>\n                  <ul class=\"dropdown\">\n                    <li><a href=\"https://baznas.go.id/id/zakat-penghasilan\">Zakat Penghasilan</a></li>\n                    <li><a href=\"https://baznas.go.id/id/zakat-emas\">Zakat Emas</a></li>\n                    <li><a href=\"https://baznas.go.id/id/zakat-perdagangan\">Zakat Perdagangan</a></li>\n                    <li><a href=\"https://baznas.go.id/id/zakat-perusahaan\">Zakat Perusahaan</a></li>\n                    <li><a href=\"https://baznas.go.id/id/zakat-saham\">Zakat Saham</a></li>\n                    <li><a href=\"https://baznas.go.id/id/zakat-reksadana\">Zakat Reksadana</a></li>\n                \n                  </ul> \n                    <li><a href=\"https://baznas.go.id/id/sedekah\">Sedekah</a>\n                </li>    \n              </ul>\n            </li>\n\n            <li><a href=\"javascript:void(0)\" style=\"font-family: 'Roboto Condensed', sans-serif;\">LAYANAN</a>\n              <ul class=\"dropdown\">\n                <li><a href=\"https://baznas.go.id/kalkulatorzakat\">Kalkulator Zakat</a></li>\n                <li><a href=\"https://baznas.go.id/id/rekening-zakat\">Rekening Zakat</a></li>\n                <li><a href=\"https://baznas.go.id/id/channel-pembayaran\">Channel Pembayaran</a></li>\n                <li><a href=\"https://baznas.go.id/id/jemput-zakat\">Jemput Zakat</a></li>\n                <li><a href=\"https://baznas.go.id/reksadana\">&nbsp;Reksadana</a></li>\n             </ul>\n            </li>\n\n\n               <li><a href=\"javascript:void(0)\" style=\"font-family: 'Roboto Condensed', sans-serif;\">KABAR</a>\n            <ul class=\"dropdown\">\n                <li><a href=\"https://baznas.go.id/cerita_aksi\">Cerita Aksi</a></li>\n                 <li><a href=\"https://baznas.go.id/artikel\">Artikel</a></li>\n                   <li><a href=\"https://baznas.go.id/event\">Event</a></li>\n\n\n              <li><a href=\"javascript:void(0)\">BAZNAS TV</a>\n                <ul class=\"dropdown\">\n                  <li><a href=\"https://baznas.go.id/berita_video\">Berita Video</a></li>\n                    <li><a href=\"https://baznas.go.id/dialog_zakat\">Dialog Zakat</a></li>\n                     </li>\n                  </ul>\n              </li>\n            \n\n              <li><a href=\"https://baznas.go.id/docrelease\">Press Release</a></li>\n             </ul>\n\n              </li>\n              <a class=\"btn btn-colored text-white btn-flat mt-15 hidden-xs hidden-sm\" data-toggle=\"modal\" href=\"https://baznas.go.id/bayarzakat\" onclick=\"return gtag_report_conversion('https://baznas.go.id/bayarzakat');\" style=\"background-color: red; font-family: 'Roboto Condensed', sans-serif;\">BAYAR ZAKAT</a>\n              <a class=\"btn btn-colored text-white btn-flat mt-15 hidden-xs hidden-sm\" data-toggle=\"modal\" href=\"https://baznas.go.id/konfirmasi\" style=\"background-color: red; font-family: 'Roboto Condensed', sans-serif;\">KONFIRMASI</a>\n\n              </body>\n\n          </nav>\n        </div>\n      </div>\n    </div>\n\n\n\n<!DOCTYPE html>\n<html dir=\"ltr\" lang=\"en\">\n<head>\n\n<!--------------------------------------------------------------------------------->\n\n\n    <!--  Primary Meta Tags -->\n\n    <title>Badan Amil Zakat Nasional | BAZNAS</title>\n\n\n    <meta name=\"title\" content=\"Badan Amil Zakat Nasional | BAZNAS\">\n\n    <meta name=\"description\" content=\"Nikmati kemudahan layanan pembayaran zakat dan infaq sesuai syariat islam secara online via website BAZNAS. Tunaikan zakat dan infak Anda sekarang.\">\n\n    <!--  ------------------ -->\n\n \n    <!--Google meta tag verify-v1 -->\n\n    <meta name=\"verify-v1\" content=\"w8n4yv6y5UMizNliL4BJHMDftEw940midMVTLMAYGs8 \">\n    <link rel=\"canonical\" href=\"Nikmati kemudahan layanan pembayaran zakat dan infaq sesuai syariat islam secara online via website BAZNAS. Tunaikan zakat dan infak Anda sekarang.\"/>\n    <link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"Bayar Zakat\" >\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta name=\"viewport\" content=\"initial-scale = 1.0, user-scalable = no, width=device-width, height=device-height, maximum-scale=1.0\">\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n\n\n    <!-- Google / Search Engine Tags -->\n\n    <meta itemprop=\"name\" content=\"Badan Amil Zakat Nasional | BAZNAS\">\n\n    <meta itemprop=\"description\" content=\"Nikmati kemudahan layanan pembayaran zakat dan infaq sesuai syariat islam secara online via website BAZNAS. Tunaikan zakat dan infak Anda sekarang.\">\n\n    <meta itemprop=\"image\" content=\"https://baznas.go.id/application/views/assets/meta_base/Halaman_Bayar_Zakat/Meta-Tags.png\">\n\n    <meta name=\"google-site-verification\" content=\"w8n4yv6y5UMizNliL4BJHMDftEw940midMVTLMAYGs8\" />\n\n\n    <!-- Open Graph / Facebook -->\n\n    <meta property=\"og:url\" content=\"https://baznas.go.id\" />\n\n    <meta property=\"og:type\" content=\"website\">\n    \n    <meta property=\"og:title\" content=\"Badan Amil Zakat Nasional | BAZNAS\">\n\n    <meta property=\"og:description\" content=\"Nikmati kemudahan layanan pembayaran zakat dan infaq sesuai syariat islam secara online via website BAZNAS. Tunaikan zakat dan infak Anda sekarang.\" />\n        \n   \n    <meta property=\"og:site_name\" content=\"Badan Amil Zakat Nasional | BAZNAS\" />\n    <meta property=\"article:section\" content=\"Badan Amil Zakat Nasional | BAZNAS\" />\n    <meta property=\"article:tag\" content=\"Badan Amil Zakat Nasional | BAZNAS\" />\n    <meta property=\"fb:admins\" content=\"https://baznas.go.id\" />\n\n\n      <!-- Multiple og:image tags for a page -->\n\n    <meta property=\"og:image\" content=\"https://baznas.go.id/application/views/assets/meta_base/Halaman_Bayar_Zakat/Meta-Tags.png\"/>\n    <meta property=\"og:image:type\" content=\"image/jpg/jpeg/png/webp\"/>\n    <meta property=\"og:image:width\" content=\"1200\"/>\n    <meta property=\"og:image:height\" content=\"600\"/>\n\n\n    <meta property=\"og:image\" content=\"https://baznas.go.id/application/views/assets/meta_base/Halaman_Bayar_Zakat/Meta-Tags.png\" />\n    <meta property=\"og:image:type\" content=\"image/jpg/jpeg/png/webp\"/>\n    <meta property=\"og:image:width\" content=\"300\"/>\n    <meta property=\"og:image:height\" content=\"300\"/>\n\n    <!-- ------------------------------------------- -->\n\n\n    <!-- Robots Meta Tags -->\n\n    <meta name=\"robots\" content=\"index, follow\"/>\n\n    <!-- Whatsapp Meta Tags -->\n\n    \n    <meta content=\"Nikmati kemudahan layanan pembayaran zakat dan infaq sesuai syariat islam secara online via website BAZNAS. Tunaikan zakat dan infak Anda sekarang.\" itemprop=\"headline\"/>\n  \n    <meta content=\"https://baznas.go.id\" itemprop=\"url\"/>\n\n\n    <meta name=\"copyright\" content=\"BAZNAS\" itemprop=\"dateline\"/>\n\n    <meta name=\"description\" content=\"Nikmati kemudahan layanan pembayaran zakat dan infaq sesuai syariat islam secara online via website BAZNAS. Tunaikan zakat dan infak Anda sekarang.\" itemprop=\"description\"/>\n\n\n    <meta name=\"keywords\" content=\"Zakat, Bayar Zakat, Sedekah, Infaq, Muzaki, Mustahik, Donasi\" itemprop=\"keywords\"/>\n    <meta name=\"thumbnailUrl\" content=\"https://baznas.go.id/application/views/assets/meta_base/Halaman_Bayar_Zakat/Meta-Tags.png\" itemprop=\"thumbnailUrl\"/>\n\n\n    <link itemprop=\"thumbnailUrl\" href=\"https://baznas.go.id/application/views\\assets\\meta_base\\Halaman_Bayar_Zakat\\Meta-Tags.png\"> \n  \n\n    <!-- Twitter Meta Tags -->\n\n    <meta name=\"twitter:card\" content=\"summary_large_image\"/>\n    <meta name=\"twitter:title\" content=\"Badan Amil Zakat Nasional | BAZNAS\">\n    <meta name=\"twitter:description\" content=\"Nikmati kemudahan layanan pembayaran zakat dan infaq sesuai syariat islam secara online via website BAZNAS. Tunaikan zakat dan infak Anda sekarang.\"/>\n\n    <meta name=\"twitter:site\" content=\"@baznasindonesia\"/>\n    <meta name=\"twitter:site:id\" content=\"@baznasindonesia\"/>\n    <meta name=\"twitter:creator\" content=\"@baznasindonesia\"/>\n   \n\n    <meta name=\"twitter:image\" content=\"https://baznas.go.id/application/views/assets/meta_base/Halaman_Bayar_Zakat/Meta-Tags.png\">\n   \n    <meta name=\"twitter:image:src\" content=\"https://baznas.go.id/application/views/assets/meta_base/Halaman_Bayar_Zakat/Meta-Tags.png\"/>\n\n    <meta name=\"keywords\" content=\"Zakat, Bayar Zakat, Sedekah, Infaq, Muzaki, Mustahik, Donasi\" >\n\n    <meta name=\"author\" content=\"BAZNAS\">\n\n<!-- ------------------------------------------- -->\n\n\n\n<!-- Preloader -->\n\n<div id=\"preloader\">\n  <div id=\"status\">&nbsp;</div>\n  </div>\n</div>\n\n\n<style type=\"text/css\">\n\nbody {\n  overflow: hidden;\n}\n\n\n/* Preloader */\n\n#preloader {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #fff;\n \n  z-index: 99;\n\n}\n\n#status {\n  width: 200px;\n  height: 200px;\n  position: absolute;\n  left: 50%;\n  \n  top: 50%;\n \n  background-image: url(https://baznas.go.id/application/views/assets/preloader/GIF.gif);\n\n  background-repeat: no-repeat;\n  background-position: center;\n  margin: -100px 0 0 -100px;\n\n}\n\n</style>\n\n<script >\n\n  $(window).on('load', function() {\n  $('#status').fadeOut(); \n  $('#preloader').delay(350).fadeOut('slow'); \n  $('body').delay(350).css({'overflow':'visible'});\n\n})</script>\n\n\n\n<!-- Facebook Pixel Code -->\n\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window,document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\n\n fbq('init', '278249982706813'); \n\n            fbq('track', 'PageView');\n\n</script>\n\n<noscript>\n <img height=\"1\" width=\"1\" \nsrc=\"https://www.facebook.com/tr?id=278249982706813&ev=PageView\n&noscript=1\"/>\n</noscript>\n\n<!-- End Facebook Pixel Code -->\n\n\n\n</head>\n\n<!--------------------------------------------------------------------------------->    \n\n<body>\n\n<div id=\"wrapper\" class=\"clearfix\">\n  <div class=\"owl-carousel-1col pb-50\" >\n                  <div class=\"item\"> \n                  <a href='https://baznas.go.id/bayarzakat'  target=\"_blank\">\n                  <img src=\"https://intranet.baznas.or.id/attachment/banner/19tahun.jpeg\" >\n                  </a>\n              </div>\n                        <div class=\"item\"> \n                  <a href='http://bit.ly/gobillszakatLAZ'  target=\"_blank\">\n                  <img src=\"https://intranet.baznas.or.id/attachment/banner/ZakatBAZNASGobills.jpeg\" >\n                  </a>\n              </div>\n                        <div class=\"item\"> \n                  <a href='https://baznas.go.id/bayarzakat'  target=\"_blank\">\n                  <img src=\"https://intranet.baznas.or.id/attachment/banner/zakatonline.png\" >\n                  </a>\n              </div>\n                        <div class=\"item\"> \n                  <a href='https://baznas.go.id/id/zakat-perusahaan'  target=\"_blank\">\n                  <img src=\"https://intranet.baznas.or.id/attachment/banner/ZakatPerusahaan.jpg\" >\n                  </a>\n              </div>\n            </div>\n\n   <!--------------------------------------------------------------------------------->\n\n\n  <div class=\"container\">\n        <div class=\"section-title text-center\">\n          <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2\">\n              <h3 class=\"text-uppercase text-theme-colored mt-0\">CERITA AKSI</h3>\n            </div>\n          </div>\n        </div>\n        <div class=\"row mtli-row-clearfix\">\n          <div class=\"col-md-12\">\n            <div class=\"causes-carousel\">\n                              <div class=\"item\">\n                    <div class=\"maxwidth500 mb-sm-30\">\n                      <div class=\"thumb\">\n\n                      <a href='https://baznas.go.id/beritadetail/baca/BAZNAS_Kembali_Raih_ISO_9001:_2015/438'>\n                          <img class=\"img-fullwidth\" style=\"width:700px; height:200px; object-fit: cover;\" alt=\"BAZNAS Kembali Raih ISO 9001: 2015\" src=\"https://intranet.baznas.or.id/attachment/berita/MTA0NTE1ODA3MjE3NzE.jpeg\">\n                          </a>\n                         </div>\n\n                      <div class=\"causes-details clearfix mt-10\" style=\"line-height:115%\">\n                        <h5><a class=\"baznas\" href=\"https://baznas.go.id/cerita_aksi/baca/BAZNAS_Kembali_Raih_ISO_9001:_2015/438\">BAZNAS Kembali Raih ISO 9001: 2015</a></h5>\n\n                  <p style=\" color:#959595; line-height:120%\"  target=\"_blank\">CERITA AKSI |&nbsp;03/02/2020</p>\n                        <p align=\"left\" style=\"line-height:120%\">Badan Amil Zakat Nasional (BAZNAS) kembali meraih sertifikat ISO 9001:2015, atas kinerja pengelolaan zakat sepanjang tahun 2019. Pencapaian prestasi i...</p>\n\n                         <div class=\"causes-details clearfix   p-15 pt-0\">\n                      \n\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                                 <div class=\"item\">\n                    <div class=\"maxwidth500 mb-sm-30\">\n                      <div class=\"thumb\">\n\n                      <a href='https://baznas.go.id/beritadetail/baca/BAZNAS_Bangkitkan_Semangat_Relawan_Sambut_Ramadhan/437'>\n                          <img class=\"img-fullwidth\" style=\"width:700px; height:200px; object-fit: cover;\" alt=\"BAZNAS Bangkitkan Semangat Relawan Sambut Ramadhan\" src=\"https://intranet.baznas.or.id/attachment/berita/Njk2MTE1ODAzNDgzMTY.jpg\">\n                          </a>\n                         </div>\n\n                      <div class=\"causes-details clearfix mt-10\" style=\"line-height:115%\">\n                        <h5><a class=\"baznas\" href=\"https://baznas.go.id/cerita_aksi/baca/BAZNAS_Bangkitkan_Semangat_Relawan_Sambut_Ramadhan/437\">BAZNAS Bangkitkan Semangat Relawan Sambut Ramadhan</a></h5>\n\n                  <p style=\" color:#959595; line-height:120%\"  target=\"_blank\">CERITA AKSI |&nbsp;29/01/2020</p>\n                        <p align=\"left\" style=\"line-height:120%\">Badan Amil Zakat Nasional (BAZNAS) membangkitkan kembali semangat para relawan zakat dalam menyambut momentum Ramadhan 1441 yang dikemas lewat acara n...</p>\n\n                         <div class=\"causes-details clearfix   p-15 pt-0\">\n                      \n\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                                 <div class=\"item\">\n                    <div class=\"maxwidth500 mb-sm-30\">\n                      <div class=\"thumb\">\n\n                      <a href='https://baznas.go.id/beritadetail/baca/BAZNAS_Gelar_Program_Pasar_Rakyat_di_Jakarta/436'>\n                          <img class=\"img-fullwidth\" style=\"width:700px; height:200px; object-fit: cover;\" alt=\"BAZNAS Gelar Program Pasar Rakyat di Jakarta\" src=\"https://intranet.baznas.or.id/attachment/berita/NjIwNzE1ODAwOTA5Njc.jpg\">\n                          </a>\n                         </div>\n\n                      <div class=\"causes-details clearfix mt-10\" style=\"line-height:115%\">\n                        <h5><a class=\"baznas\" href=\"https://baznas.go.id/cerita_aksi/baca/BAZNAS_Gelar_Program_Pasar_Rakyat_di_Jakarta/436\">BAZNAS Gelar Program Pasar Rakyat di Jakarta</a></h5>\n\n                  <p style=\" color:#959595; line-height:120%\"  target=\"_blank\">CERITA AKSI |&nbsp;26/01/2020</p>\n                        <p align=\"left\" style=\"line-height:120%\">Badan Amil Zakat Nasional (BAZNAS) menggelar Pasar Rakyat bagi mitra binaan BAZNAS di Jl Pemuda, Rawamangun, Jakarta Timur, DKI Jakarta, pada Minggu (...</p>\n\n                         <div class=\"causes-details clearfix   p-15 pt-0\">\n                      \n\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                                 <div class=\"item\">\n                    <div class=\"maxwidth500 mb-sm-30\">\n                      <div class=\"thumb\">\n\n                      <a href='https://baznas.go.id/beritadetail/baca/BAZNAS_Lakukan_Aksi_Pengentasan_Stunting_di_Parigi_Moutong/434'>\n                          <img class=\"img-fullwidth\" style=\"width:700px; height:200px; object-fit: cover;\" alt=\"BAZNAS Lakukan Aksi Pengentasan Stunting di Parigi Moutong\" src=\"https://intranet.baznas.or.id/attachment/berita/Nzc4OTE1Nzk4NTY1Mzg.jpeg\">\n                          </a>\n                         </div>\n\n                      <div class=\"causes-details clearfix mt-10\" style=\"line-height:115%\">\n                        <h5><a class=\"baznas\" href=\"https://baznas.go.id/cerita_aksi/baca/BAZNAS_Lakukan_Aksi_Pengentasan_Stunting_di_Parigi_Moutong/434\">BAZNAS Lakukan Aksi Pengentasan Stunting di Parigi Moutong</a></h5>\n\n                  <p style=\" color:#959595; line-height:120%\"  target=\"_blank\">CERITA AKSI |&nbsp;24/01/2020</p>\n                        <p align=\"left\" style=\"line-height:120%\">\nBadan Amil Zakat Nasional (BAZNAS)&nbsp; melakukan aksi Pengentasan Stunting melalui pemanfaatan potensi kelapa di Desa Tandaigi, Kecamatan Siniu, Ka...</p>\n\n                         <div class=\"causes-details clearfix   p-15 pt-0\">\n                      \n\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                                 <div class=\"item\">\n                    <div class=\"maxwidth500 mb-sm-30\">\n                      <div class=\"thumb\">\n\n                      <a href='https://baznas.go.id/beritadetail/baca/PT_ASKRINDO_Bersama_BAZNAS_Serahkan_Bantuan_Perahu_untuk_Nelayan_Parigi_Moutong/433'>\n                          <img class=\"img-fullwidth\" style=\"width:700px; height:200px; object-fit: cover;\" alt=\"PT ASKRINDO Bersama BAZNAS Serahkan Bantuan Perahu untuk Nelayan Parigi Moutong\" src=\"https://intranet.baznas.or.id/attachment/berita/MzYzNDE1Nzk4NDkxNjQ.jpeg\">\n                          </a>\n                         </div>\n\n                      <div class=\"causes-details clearfix mt-10\" style=\"line-height:115%\">\n                        <h5><a class=\"baznas\" href=\"https://baznas.go.id/cerita_aksi/baca/PT_ASKRINDO_Bersama_BAZNAS_Serahkan_Bantuan_Perahu_untuk_Nelayan_Parigi_Moutong/433\">PT ASKRINDO Bersama BAZNAS Serahkan Bantuan Perahu untuk Nelayan Parigi Moutong</a></h5>\n\n                  <p style=\" color:#959595; line-height:120%\"  target=\"_blank\">CERITA AKSI |&nbsp;24/01/2020</p>\n                        <p align=\"left\" style=\"line-height:120%\">PT Asuransi Kredit Indonesia (Persero) atau PT Askrindo (Persero) menggandeng Badan Amil Zakat Nasional (BAZNAS) mendistribusikan bantuan perahu untuk...</p>\n\n                         <div class=\"causes-details clearfix   p-15 pt-0\">\n                      \n\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                                 <div class=\"item\">\n                    <div class=\"maxwidth500 mb-sm-30\">\n                      <div class=\"thumb\">\n\n                      <a href='https://baznas.go.id/beritadetail/baca/PT_ASKRINDO_Gandeng_BAZNAS_Bangun_Masjid_untuk_Korban_Gempa_Sigi/432'>\n                          <img class=\"img-fullwidth\" style=\"width:700px; height:200px; object-fit: cover;\" alt=\"PT ASKRINDO Gandeng BAZNAS Bangun Masjid untuk Korban Gempa Sigi\" src=\"https://intranet.baznas.or.id/attachment/berita/OTAyOTE1Nzk3NjA4MDk.jpeg\">\n                          </a>\n                         </div>\n\n                      <div class=\"causes-details clearfix mt-10\" style=\"line-height:115%\">\n                        <h5><a class=\"baznas\" href=\"https://baznas.go.id/cerita_aksi/baca/PT_ASKRINDO_Gandeng_BAZNAS_Bangun_Masjid_untuk_Korban_Gempa_Sigi/432\">PT ASKRINDO Gandeng BAZNAS Bangun Masjid untuk Korban Gempa Sigi</a></h5>\n\n                  <p style=\" color:#959595; line-height:120%\"  target=\"_blank\">CERITA AKSI |&nbsp;23/01/2020</p>\n                        <p align=\"left\" style=\"line-height:120%\">\nPT Asuransi Kredit Indonesia (Persero) atau PT Askrindo (Persero) bersama Badan Amil Zakat Nasional (BAZNAS) melaksanakan program pembangunan masjid ...</p>\n\n                         <div class=\"causes-details clearfix   p-15 pt-0\">\n                      \n\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                                 <div class=\"item\">\n                    <div class=\"maxwidth500 mb-sm-30\">\n                      <div class=\"thumb\">\n\n                      <a href='https://baznas.go.id/beritadetail/baca/Banjir_Jabodetabek,_BAZNAS_Bantu_Evakuasi/431'>\n                          <img class=\"img-fullwidth\" style=\"width:700px; height:200px; object-fit: cover;\" alt=\"Banjir Jabodetabek, BAZNAS Bantu Evakuasi\" src=\"https://intranet.baznas.or.id/attachment/berita/NjM0MTE1Nzg2NTAzNjI.jpg\">\n                          </a>\n                         </div>\n\n                      <div class=\"causes-details clearfix mt-10\" style=\"line-height:115%\">\n                        <h5><a class=\"baznas\" href=\"https://baznas.go.id/cerita_aksi/baca/Banjir_Jabodetabek,_BAZNAS_Bantu_Evakuasi/431\">Banjir Jabodetabek, BAZNAS Bantu Evakuasi</a></h5>\n\n                  <p style=\" color:#959595; line-height:120%\"  target=\"_blank\">CERITA AKSI |&nbsp;01/01/2020</p>\n                        <p align=\"left\" style=\"line-height:120%\">Badan Amil Zakat Nasional (BAZNAS) melalui BAZNAS Tanggap Bencana (BTB), bergerak cepat untuk membantu warga korban terdampak banjir di Jakarta, Rabu,...</p>\n\n                         <div class=\"causes-details clearfix   p-15 pt-0\">\n                      \n\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                                 <div class=\"item\">\n                    <div class=\"maxwidth500 mb-sm-30\">\n                      <div class=\"thumb\">\n\n                      <a href='https://baznas.go.id/beritadetail/baca/Lotte_Grosir_Gandeng_BAZNAS_Salurkan_Bantuan_ke_Korban_Banjir_Senilai_Rp_300_Juta/430'>\n                          <img class=\"img-fullwidth\" style=\"width:700px; height:200px; object-fit: cover;\" alt=\"Lotte Grosir Gandeng BAZNAS Salurkan Bantuan ke Korban Banjir Senilai Rp 300 Juta\" src=\"https://intranet.baznas.or.id/attachment/berita/MjE5NTE1Nzg2MjkwODA.jpg\">\n                          </a>\n                         </div>\n\n                      <div class=\"causes-details clearfix mt-10\" style=\"line-height:115%\">\n                        <h5><a class=\"baznas\" href=\"https://baznas.go.id/cerita_aksi/baca/Lotte_Grosir_Gandeng_BAZNAS_Salurkan_Bantuan_ke_Korban_Banjir_Senilai_Rp_300_Juta/430\">Lotte Grosir Gandeng BAZNAS Salurkan Bantuan ke Korban Banjir Senilai Rp 300 Juta</a></h5>\n\n                  <p style=\" color:#959595; line-height:120%\"  target=\"_blank\">CERITA AKSI |&nbsp;06/01/2020</p>\n                        <p align=\"left\" style=\"line-height:120%\">Lotte Grosir menjalin kerjasama dengan Badan Amil Zakat Nasional (BAZNAS) memberikan bantuan untuk korban banjir di wilayah Jabodetabek.&nbsp;\n&nbsp;\n...</p>\n\n                         <div class=\"causes-details clearfix   p-15 pt-0\">\n                      \n\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                                 <div class=\"item\">\n                    <div class=\"maxwidth500 mb-sm-30\">\n                      <div class=\"thumb\">\n\n                      <a href='https://baznas.go.id/beritadetail/baca/Unilever_Gandeng_BAZNAS_Salurkan_Bantuan_Perlengkapan_Kebersihan_untuk_Korban_Banjir/429'>\n                          <img class=\"img-fullwidth\" style=\"width:700px; height:200px; object-fit: cover;\" alt=\"Unilever Gandeng BAZNAS Salurkan Bantuan Perlengkapan Kebersihan untuk Korban Banjir\" src=\"https://intranet.baznas.or.id/attachment/berita/NDM5ODE1Nzg2MjgyMTE.jpg\">\n                          </a>\n                         </div>\n\n                      <div class=\"causes-details clearfix mt-10\" style=\"line-height:115%\">\n                        <h5><a class=\"baznas\" href=\"https://baznas.go.id/cerita_aksi/baca/Unilever_Gandeng_BAZNAS_Salurkan_Bantuan_Perlengkapan_Kebersihan_untuk_Korban_Banjir/429\">Unilever Gandeng BAZNAS Salurkan Bantuan Perlengkapan Kebersihan untuk Korban Banjir</a></h5>\n\n                  <p style=\" color:#959595; line-height:120%\"  target=\"_blank\">CERITA AKSI |&nbsp;08/01/2020</p>\n                        <p align=\"left\" style=\"line-height:120%\">PT. Unilever Indonesia bekerja sama dengan Badan Amil Zakat Nasional (BAZNAS) menyerahkan bantuan perlengkapan kebersihan diri bagi korban banjir di J...</p>\n\n                         <div class=\"causes-details clearfix   p-15 pt-0\">\n                      \n\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                                 <div class=\"item\">\n                    <div class=\"maxwidth500 mb-sm-30\">\n                      <div class=\"thumb\">\n\n                      <a href='https://baznas.go.id/beritadetail/baca/BAZNAS_Tanda_Tangani_Nota_Kesepahaman_Penghimpunan_Zakat,_Infak,_Sedekah_dengan_Pegadaian/428'>\n                          <img class=\"img-fullwidth\" style=\"width:700px; height:200px; object-fit: cover;\" alt=\"BAZNAS Tanda Tangani Nota Kesepahaman Penghimpunan Zakat, Infak, Sedekah dengan Pegadaian\" src=\"https://intranet.baznas.or.id/attachment/berita/MzY1NTE1Nzg2MjczMjA.jpg\">\n                          </a>\n                         </div>\n\n                      <div class=\"causes-details clearfix mt-10\" style=\"line-height:115%\">\n                        <h5><a class=\"baznas\" href=\"https://baznas.go.id/cerita_aksi/baca/BAZNAS_Tanda_Tangani_Nota_Kesepahaman_Penghimpunan_Zakat,_Infak,_Sedekah_dengan_Pegadaian/428\">BAZNAS Tanda Tangani Nota Kesepahaman Penghimpunan Zakat, Infak, Sedekah dengan Pegadaian</a></h5>\n\n                  <p style=\" color:#959595; line-height:120%\"  target=\"_blank\">CERITA AKSI |&nbsp;08/01/2020</p>\n                        <p align=\"left\" style=\"line-height:120%\">Badan Amil Zakat Nasional (BAZNAS) menggandeng Badan Usaha Milik Negara (BUMN) yang bergerak di bidang keuangan, PT Pegadaian (Persero) sebagai mitra ...</p>\n\n                         <div class=\"causes-details clearfix   p-15 pt-0\">\n                      \n\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                             </div>\n            </div>    \n           </div>\n\n           <div class=\"clearfix\"></div>\n            </div>\n              </div>\n                <br> \n\n      <style type=\"text/css\">\n        \n      a.baznas:link {color:#000000;} \n      a.baznas:visited {color:#000000;} \n      a.baznas:hover {color:#006400;} \n\n      </style>\n\n\n\n<!--------------------------------------------------------------------------------->\n\n\n  <div class=\"container pb-30\">\n        <div class=\"section-title text-center\">\n          <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2\">\n\n              <h3 class=\"text-uppercase text-theme-colored mt-0\">Program Zakat</h3>\n            </div>\n          </div>\n        </div>\n        <div class=\"row mtli-row-clearfix\">\n          <div class=\"col-sm-6 col-md-4 col-lg-4\">\n            <div class=\"causes maxwidth500 mb-sm-30\">\n              <img class=\"img-fullwidth\" alt=\"Zakat Community Development\" src=\"https://baznas.go.id/application/views/assets/images/program/zcd/zcdslider3.webp\">\n              <div class=\"causes-details clearfix border-bottom p-15 pt-10\">\n                <h5><a href=\"https://baznas.go.id/zcd\">Zakat Community Development</a></h5>\n                <p>Program pemberdayaan BAZNAS melalui komunitas dan desa dengan mengintegrasikan aspek dakwah, ekonomi, pendidikan, kesehatan, dan kemanusiaan secara komprehensif.</p>\n               \n                  <a class=\"btn btn-succes\"  href=\"https://zcd.baznas.go.id/\" target=\"_blank\" style=\" color: #fff; background-color: #006400;\" class=\"btn btn-success\">Selengkapnya &nbsp;\n\n                     <span class =\"fa fa-arrow-right\"></span> \n                    </a>\n\n               </div>\n            </div>\n          </div>\n          <div class=\"col-sm-6 col-md-4 col-lg-4\">\n            <div class=\"causes maxwidth500 mb-sm-30\">\n              <img class=\"img-fullwidth\" alt=\"Rumah Sehat BAZNAS\" src=\"https://baznas.go.id/application/views/assets/images/program/rsbi/rsbslider1.webp\">\n              <div class=\"causes-details clearfix border-bottom p-15 pt-10\">\n                <h5><a href=\"https://baznas.go.id/rsb\">Rumah Sehat BAZNAS</a></h5>\n                <p>Program pelayanan kesehatan secara terpadu kepada seluruh mustahik termasuk pelayanan di daerah bencana yang meliputi aspek kuratif, preventif, rehabilitatif, promotif dan advokatif.</p>\n                \n\n                  <a class=\"btn btn-succes\"  href=\"https://baznas.go.id/rsb\" style=\" color: #fff; background-color: #006400;\" class=\"btn btn-success\" >Selengkapnya &nbsp;\n\n                    <span class =\"fa fa-arrow-right\"></span> \n                    </a>\n\n               </div>\n            </div>\n          </div>\n          <div class=\"col-sm-6 col-md-4 col-lg-4\">\n            <div class=\"causes maxwidth500 mb-sm-30\">\n              <img class=\"img-fullwidth\" alt=\"BAZNAS Tanggap Bencana\" src=\"https://baznas.go.id/application/views/assets/images/program/btb/berita/saka3.webp\">\n              <div class=\"causes-details clearfix border-bottom p-15 pt-10\">\n                <h5><a href=\"https://baznas.go.id/btb\">BAZNAS Tanggap Bencana</a></h5>\n                <p>Unit kerja dari bidang Pendistribusian dan Pendayagunaan BAZNAS yang bertugas mengurangi dampak bencana yang mengakibatkan kemiskinan akibat bencana.</p>\n                \n\n                  <a class=\"btn btn-succes\"  href=\"https://baznas.go.id/btb\" style=\" color: #fff; background-color: #006400;\" class=\"btn btn-success\" >Selengkapnya &nbsp;\n\n                      <span class =\"fa fa-arrow-right\"></span> \n                    </a>\n               </div>\n            </div>\n          </div>\n        </div>\n      </div>\n\n<!--------------------------------------------------------------------------------->\n\n\n\n<div class=\"container pt-20\">\n  <div class=\"section-title text-center\">\n    <div class=\"row\">\n      <div class=\"col-md-8 col-md-offset-2\">\n        <h3 class=\"text-uppercase text-theme-colored mt-0\">Headline News</h3>\n      </div>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <div class=\"news-carousel owl-nav-top mb-sm-80\" data-dots=\"true\">\n                  \n          <div class=\"item\">\n            <article class=\"post clearfix maxwidth600 mb-sm-30\">\n              <div class=\"fluid-video-wrapper\">\n                <iframe src=\"https://www.youtube.com/embed/h-9X1gD0KqM\" width=\"640\" height=\"360\"  title=\"PT ASKRINDO Gandeng BAZNAS Bakti Sosial bagi Anak Baduy\"  allowfullscreen></iframe>\n               \n            </div>\n              <div class=\"entry-content \">\n                <div class=\"causes-details clearfix border-bottom p-15 pt-10\">\n                  <h5>PT ASKRINDO Gandeng BAZNAS Bakti Sosial bagi Anak Baduy</h5>\n        \n           <div class=\"mt-10\">\n                    \n  <a class=\"btn btn-succes\"  href=\"https://baznas.go.id/berita_video/lihat/PT_ASKRINDO_Gandeng_BAZNAS_Bakti_Sosial_bagi_Anak_Baduy/60\" style=\" color: #fff; background-color: #006400;\" class=\"btn btn-success\" >Lihat Video &nbsp;\n\n              <span class =\"fa fa-arrow-right\"></span> \n                  </a>\n                    <ul class=\"list-inline entry-date pull-right font-12 mt-5\" class=\"text-theme-colored\">BAZNAS TV | 09/12/2019</span></li> \n\n                    </div>\n                  </div>\n                </div>\n              </div>\n                        \n          <div class=\"item\">\n            <article class=\"post clearfix maxwidth600 mb-sm-30\">\n              <div class=\"fluid-video-wrapper\">\n                <iframe src=\"https://www.youtube.com/embed/zvJlHH2T-tM\" width=\"640\" height=\"360\"  title=\"Rumah Sehat BAZNAS Jaga Kesehatan Anak Binaan Lapas\"  allowfullscreen></iframe>\n               \n            </div>\n              <div class=\"entry-content \">\n                <div class=\"causes-details clearfix border-bottom p-15 pt-10\">\n                  <h5>Rumah Sehat BAZNAS Jaga Kesehatan Anak Binaan Lapas</h5>\n        \n           <div class=\"mt-10\">\n                    \n  <a class=\"btn btn-succes\"  href=\"https://baznas.go.id/berita_video/lihat/Rumah_Sehat_BAZNAS_Jaga_Kesehatan_Anak_Binaan_Lapas/59\" style=\" color: #fff; background-color: #006400;\" class=\"btn btn-success\" >Lihat Video &nbsp;\n\n              <span class =\"fa fa-arrow-right\"></span> \n                  </a>\n                    <ul class=\"list-inline entry-date pull-right font-12 mt-5\" class=\"text-theme-colored\">BAZNAS TV | 09/12/2019</span></li> \n\n                    </div>\n                  </div>\n                </div>\n              </div>\n                        \n          <div class=\"item\">\n            <article class=\"post clearfix maxwidth600 mb-sm-30\">\n              <div class=\"fluid-video-wrapper\">\n                <iframe src=\"https://www.youtube.com/embed/2W_6_NXTYQI\" width=\"640\" height=\"360\"  title=\"Badan Amil Zakat Nasional (BAZNAS) bergerak cepat mengirimkan tim untuk membantu korban banjir yang tinggal di Daerah Aliran Sungai Cimadur Banten.\"  allowfullscreen></iframe>\n               \n            </div>\n              <div class=\"entry-content \">\n                <div class=\"causes-details clearfix border-bottom p-15 pt-10\">\n                  <h5>Badan Amil Zakat Nasional (BAZNAS) bergerak cepat mengirimkan tim untuk membantu korban banjir yang </h5>\n        \n           <div class=\"mt-10\">\n                    \n  <a class=\"btn btn-succes\"  href=\"https://baznas.go.id/berita_video/lihat/Badan_Amil_Zakat_Nasional_(BAZNAS)_bergerak_cepat_mengirimkan_tim_untuk_membantu_korban_banjir_yang_tinggal_di_Daerah_Aliran_Sungai_Cimadur_Banten./58\" style=\" color: #fff; background-color: #006400;\" class=\"btn btn-success\" >Lihat Video &nbsp;\n\n              <span class =\"fa fa-arrow-right\"></span> \n                  </a>\n                    <ul class=\"list-inline entry-date pull-right font-12 mt-5\" class=\"text-theme-colored\">BAZNAS TV | 09/12/2019</span></li> \n\n                    </div>\n                  </div>\n                </div>\n              </div>\n                        \n          <div class=\"item\">\n            <article class=\"post clearfix maxwidth600 mb-sm-30\">\n              <div class=\"fluid-video-wrapper\">\n                <iframe src=\"https://www.youtube.com/embed/h1g-v4dqCfs\" width=\"640\" height=\"360\"  title=\"Optimalkan Hasil Panen,ZCD BAZNAS Perkuat Pengetahuan Mustahik Soal Budidaya Lele\"  allowfullscreen></iframe>\n               \n            </div>\n              <div class=\"entry-content \">\n                <div class=\"causes-details clearfix border-bottom p-15 pt-10\">\n                  <h5>Optimalkan Hasil Panen,ZCD BAZNAS Perkuat Pengetahuan Mustahik Soal Budidaya Lele</h5>\n        \n           <div class=\"mt-10\">\n                    \n  <a class=\"btn btn-succes\"  href=\"https://baznas.go.id/berita_video/lihat/Optimalkan_Hasil_Panen,ZCD_BAZNAS_Perkuat_Pengetahuan_Mustahik_Soal_Budidaya_Lele/57\" style=\" color: #fff; background-color: #006400;\" class=\"btn btn-success\" >Lihat Video &nbsp;\n\n              <span class =\"fa fa-arrow-right\"></span> \n                  </a>\n                    <ul class=\"list-inline entry-date pull-right font-12 mt-5\" class=\"text-theme-colored\">BAZNAS TV | 06/12/2019</span></li> \n\n                    </div>\n                  </div>\n                </div>\n              </div>\n                        \n          <div class=\"item\">\n            <article class=\"post clearfix maxwidth600 mb-sm-30\">\n              <div class=\"fluid-video-wrapper\">\n                <iframe src=\"https://www.youtube.com/embed/zgDyNAYrBUk\" width=\"640\" height=\"360\"  title=\"Perkuat Jejaring Relawan Bencana, BAZNAS Tanggap Bencana Resmi Dibentuk di Maros\"  allowfullscreen></iframe>\n               \n            </div>\n              <div class=\"entry-content \">\n                <div class=\"causes-details clearfix border-bottom p-15 pt-10\">\n                  <h5>Perkuat Jejaring Relawan Bencana, BAZNAS Tanggap Bencana Resmi Dibentuk di Maros</h5>\n        \n           <div class=\"mt-10\">\n                    \n  <a class=\"btn btn-succes\"  href=\"https://baznas.go.id/berita_video/lihat/Perkuat_Jejaring_Relawan_Bencana,_BAZNAS_Tanggap_Bencana_Resmi_Dibentuk_di_Maros/56\" style=\" color: #fff; background-color: #006400;\" class=\"btn btn-success\" >Lihat Video &nbsp;\n\n              <span class =\"fa fa-arrow-right\"></span> \n                  </a>\n                    <ul class=\"list-inline entry-date pull-right font-12 mt-5\" class=\"text-theme-colored\">BAZNAS TV | 05/12/2019</span></li> \n\n                    </div>\n                  </div>\n                </div>\n              </div>\n                        \n          <div class=\"item\">\n            <article class=\"post clearfix maxwidth600 mb-sm-30\">\n              <div class=\"fluid-video-wrapper\">\n                <iframe src=\"https://www.youtube.com/embed/CrrPNawT28k\" width=\"640\" height=\"360\"  title=\"Peringati Hari Disabilitas, RSB Jakarta Mendistribusikan Kursi roda Khusus\"  allowfullscreen></iframe>\n               \n            </div>\n              <div class=\"entry-content \">\n                <div class=\"causes-details clearfix border-bottom p-15 pt-10\">\n                  <h5>Peringati Hari Disabilitas, RSB Jakarta Mendistribusikan Kursi roda Khusus</h5>\n        \n           <div class=\"mt-10\">\n                    \n  <a class=\"btn btn-succes\"  href=\"https://baznas.go.id/berita_video/lihat/Peringati_Hari_Disabilitas,_RSB_Jakarta_Mendistribusikan_Kursi_roda_Khusus/55\" style=\" color: #fff; background-color: #006400;\" class=\"btn btn-success\" >Lihat Video &nbsp;\n\n              <span class =\"fa fa-arrow-right\"></span> \n                  </a>\n                    <ul class=\"list-inline entry-date pull-right font-12 mt-5\" class=\"text-theme-colored\">BAZNAS TV | 04/12/2019</span></li> \n\n                    </div>\n                  </div>\n                </div>\n              </div>\n                        \n          <div class=\"item\">\n            <article class=\"post clearfix maxwidth600 mb-sm-30\">\n              <div class=\"fluid-video-wrapper\">\n                <iframe src=\"https://www.youtube.com/embed/ZMD8VNuHdX4\" width=\"640\" height=\"360\"  title=\"Berau Coal, Pemkab Berau dan BAZNAS Tanda Tangani Kerjasama Pendirian Rumah Sehat BAZNAS\"  allowfullscreen></iframe>\n               \n            </div>\n              <div class=\"entry-content \">\n                <div class=\"causes-details clearfix border-bottom p-15 pt-10\">\n                  <h5>Berau Coal, Pemkab Berau dan BAZNAS Tanda Tangani Kerjasama Pendirian Rumah Sehat BAZNAS</h5>\n        \n           <div class=\"mt-10\">\n                    \n  <a class=\"btn btn-succes\"  href=\"https://baznas.go.id/berita_video/lihat/Berau_Coal,_Pemkab_Berau_dan_BAZNAS_Tanda_Tangani_Kerjasama_Pendirian_Rumah_Sehat_BAZNAS/54\" style=\" color: #fff; background-color: #006400;\" class=\"btn btn-success\" >Lihat Video &nbsp;\n\n              <span class =\"fa fa-arrow-right\"></span> \n                  </a>\n                    <ul class=\"list-inline entry-date pull-right font-12 mt-5\" class=\"text-theme-colored\">BAZNAS TV | 03/12/2019</span></li> \n\n                    </div>\n                  </div>\n                </div>\n              </div>\n                        \n          <div class=\"item\">\n            <article class=\"post clearfix maxwidth600 mb-sm-30\">\n              <div class=\"fluid-video-wrapper\">\n                <iframe src=\"https://www.youtube.com/embed/E9y8HzPPmU0\" width=\"640\" height=\"360\"  title=\"Siswa Cendekia BAZNAS Menjaga Lingkungan dengan Bangun Kreativitas Yang Bernilai\"  allowfullscreen></iframe>\n               \n            </div>\n              <div class=\"entry-content \">\n                <div class=\"causes-details clearfix border-bottom p-15 pt-10\">\n                  <h5>Siswa Cendekia BAZNAS Menjaga Lingkungan dengan Bangun Kreativitas Yang Bernilai</h5>\n        \n           <div class=\"mt-10\">\n                    \n  <a class=\"btn btn-succes\"  href=\"https://baznas.go.id/berita_video/lihat/Siswa_Cendekia_BAZNAS_Menjaga_Lingkungan_dengan_Bangun_Kreativitas_Yang_Bernilai/53\" style=\" color: #fff; background-color: #006400;\" class=\"btn btn-success\" >Lihat Video &nbsp;\n\n              <span class =\"fa fa-arrow-right\"></span> \n                  </a>\n                    <ul class=\"list-inline entry-date pull-right font-12 mt-5\" class=\"text-theme-colored\">BAZNAS TV | 03/12/2019</span></li> \n\n                    </div>\n                  </div>\n                </div>\n              </div>\n                        \n          <div class=\"item\">\n            <article class=\"post clearfix maxwidth600 mb-sm-30\">\n              <div class=\"fluid-video-wrapper\">\n                <iframe src=\"https://www.youtube.com/embed/ebsL_6fjTo4\" width=\"640\" height=\"360\"  title=\"Lembaga Beasiswa BAZNAS Kenalkan Pendidikan Pasca Bencana di Konferensi Tingkat Dunia\"  allowfullscreen></iframe>\n               \n            </div>\n              <div class=\"entry-content \">\n                <div class=\"causes-details clearfix border-bottom p-15 pt-10\">\n                  <h5>Lembaga Beasiswa BAZNAS Kenalkan Pendidikan Pasca Bencana di Konferensi Tingkat Dunia</h5>\n        \n           <div class=\"mt-10\">\n                    \n  <a class=\"btn btn-succes\"  href=\"https://baznas.go.id/berita_video/lihat/Lembaga_Beasiswa_BAZNAS_Kenalkan_Pendidikan_Pasca_Bencana_di_Konferensi_Tingkat_Dunia/52\" style=\" color: #fff; background-color: #006400;\" class=\"btn btn-success\" >Lihat Video &nbsp;\n\n              <span class =\"fa fa-arrow-right\"></span> \n                  </a>\n                    <ul class=\"list-inline entry-date pull-right font-12 mt-5\" class=\"text-theme-colored\">BAZNAS TV | 28/11/2019</span></li> \n\n                    </div>\n                  </div>\n                </div>\n              </div>\n                        \n          <div class=\"item\">\n            <article class=\"post clearfix maxwidth600 mb-sm-30\">\n              <div class=\"fluid-video-wrapper\">\n                <iframe src=\"https://www.youtube.com/embed/F6xAgvnN-F8\" width=\"640\" height=\"360\"  title=\"BCA Syariah Gandeng BAZNAS Salurkan Modal untuk Pemberdayaan Mustahik Pengusaha\"  allowfullscreen></iframe>\n               \n            </div>\n              <div class=\"entry-content \">\n                <div class=\"causes-details clearfix border-bottom p-15 pt-10\">\n                  <h5>BCA Syariah Gandeng BAZNAS Salurkan Modal untuk Pemberdayaan Mustahik Pengusaha</h5>\n        \n           <div class=\"mt-10\">\n                    \n  <a class=\"btn btn-succes\"  href=\"https://baznas.go.id/berita_video/lihat/BCA_Syariah_Gandeng_BAZNAS_Salurkan_Modal_untuk_Pemberdayaan_Mustahik_Pengusaha/51\" style=\" color: #fff; background-color: #006400;\" class=\"btn btn-success\" >Lihat Video &nbsp;\n\n              <span class =\"fa fa-arrow-right\"></span> \n                  </a>\n                    <ul class=\"list-inline entry-date pull-right font-12 mt-5\" class=\"text-theme-colored\">BAZNAS TV | 27/11/2019</span></li> \n\n                    </div>\n                  </div>\n                </div>\n              </div>\n              \n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n\n<!--------------------------------------------------------------------------------->\n\n\n  <div class=\"container mt-5 mb-5 pt-30 pb-10\">\n        <div class=\"section-title text-center\">\n          <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2\">\n              <h3 class=\"text-uppercase text-theme-colored  mt-0\">Statistik 2018</h3>\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-sm-6 col-md-3 col-lg-3\">\n            <article class=\"post clearfix maxwidth600 mb-30\">\n              <div class=\"entry-header\">\n                <div class=\"entry-meta meta-absolute text-center p-15\">\n                <div class=\"display-table\">\n                </div>\n                </div>\n              </div>\n              <div class=\"entry-content border-1px text-center\">\n                <h4 class=\"text-theme-colored entry-title mt-10\"><b>MUZAKI</b></h4>\n                <hr>\n                <span style=\"font-size: 50px; font-weight: bold;\" class=\"text-theme-colored\">38.5</span><span style=\"font-size: 20px\" class=\"text-theme-colored\"> RIBU</span>\n                <p class=\"mb-10 font-13\"><small>&nbsp;</small></p>\n                <div class=\"clearfix\"></div>\n              </div>\n            </article>\n          </div>\n          <div class=\"col-sm-6 col-md-3 col-lg-3\">\n            <article class=\"post clearfix maxwidth600 mb-30\">\n              <div class=\"entry-header\">\n                <div class=\"entry-meta meta-absolute text-center p-15\">\n                <div class=\"display-table\">\n                </div>\n                </div>\n              </div>\n              <div class=\"entry-content border-1px text-center\">\n                <h4 class=\"text-center text-theme-colored entry-title mt-10\"><b>PENGHIMPUNAN</b></h4>\n                <hr>\n                <span style=\"font-size: 50px; font-weight: bold;\" class=\"text-theme-colored\">206.3</span><span style=\"font-size: 20px\" class=\"text-theme-colored\"> MILYAR</span>\n                <p class=\"text-center mb-10 font-13\"><small>&nbsp;</small></p>\n                <div class=\"clearfix\"></div>\n              </div>\n            </article>\n          </div>\n          <div class=\"col-sm-6 col-md-3 col-lg-3\">\n            <article class=\"post clearfix maxwidth600 mb-30\">\n              <div class=\"entry-header\">\n                <div class=\"entry-meta meta-absolute text-center p-15\">\n                <div class=\"display-table\">\n                </div>\n                </div>\n              </div>\n              <div class=\"entry-content border-1px text-center\">\n                <h4 class=\"text-center text-theme-colored entry-title mt-10\"><b>PENYALURAN</b></h4>\n                <hr>\n                <span style=\"font-size: 50px; font-weight: bold;\" class=\"text-theme-colored\">197</span><span style=\"font-size: 20px\" class=\"text-theme-colored\"> MILYAR</span>\n                <p class=\"text-center mb-10 font-13\"><small>&nbsp;</small></p>\n                <div class=\"clearfix\"></div>\n              </div>\n            </article>\n          </div>\n          <div class=\"col-sm-6 col-md-3 col-lg-3\">\n            <article class=\"post clearfix maxwidth600 mb-10\">\n              <div class=\"entry-header\">\n                <div class=\"entry-meta meta-absolute text-center p-15\">\n                <div class=\"display-table\">\n                </div>\n                </div>\n              </div>\n              <div class=\"entry-content border-1px text-center\">\n                <h4 class=\"text-center text-theme-colored entry-title mt-10\"><b>MUSTAHIK</b></h4>\n                <hr>\n                <span style=\"font-size: 50px; font-weight: bold;\" class=\"text-theme-colored\">636.9</span><span style=\"font-size: 20px\" class=\"text-theme-colored\"> RIBU</span>\n                <p class=\"text-center mb-10 font-13\"><small>&nbsp;</small></p>\n                <div class=\"clearfix\"></div>\n              </div>\n            </article>\n          </div>\n        </div>\n  </div>\n\n  <!--<section class=\"divider parallax layer-overlay overlay-dark-light\" data-stellar-background-ratio=\"0.5\" data-bg-img=\"https://baznas.go.id/application/views/assets/images/gallery/c1.jpg\">\n    <div class=\"container-fluid p-0\">\n      <div class=\"section-title text-center\">\n        <div class=\"row\">\n          <div class=\"col-md-8 col-md-offset-2\"><br>\n            <h3 class=\"text-white text-uppercase mt-0\">BAZNAS dan MITRA</h3>\n          </div>\n        </div>\n      <div class=\"container pt-30 pb-30\">\n        <div class=\"row\">\n          <div class=\"col-md-12\">\n            <div class=\"clients-logo carousel\">\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/tokopedia.png\" alt=\"tokopedia\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/bpjs.png\" alt=\"bpjs\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/bris.png\" alt=\"bris\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/bukalapak.png\" alt=\"bukalapak\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/Jenius.png\" alt=\"Jenius\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/M-Cash.png\" alt=\"M-Cash\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/oy.png\" alt=\"oy\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/kitabisa.png\" alt=\"kitabisa\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/tokopedia.png\" alt=\"tokopedia\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/bpjs.png\" alt=\"bpjs\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/bris.png\" alt=\"bris\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/bukalapak.png\" alt=\"bukalapak\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/Jenius.png\" alt=\"Jenius\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/M-Cash.png\" alt=\"M-Cash\"></div>\n              <div class=\"item\"><img src=\"https://baznas.go.id/application/views/assets/images/gallery/oy.png\" alt=\"oy\"></div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>\n  </div> \n  <div id=\"tampilanlama\" style=\"display: none; bottom: 200px; position: fixed; right: 25px; text-align: left; text-decoration: none; z-index: 99999;\" class=\"hidden-xs hidden-sm\">\n    <div class=\"icon-box iconbox-theme-colored text-center\" >\n      <a class=\"icon icon-dark icon-circled icon-border-effect effect-circled\" href=\"https://baznas.go.id/pengaduan/disclaimer\" style=\"background-color:#fff;\">\n\n        <img src=\"https://baznas.go.id/application/views/assets/images/pengaduan2.png\" />\n      </a>\n      <h5 class=\"icon-box-title text-center\" style=\"color: #000; font-weight: bold;\">PENGADUAN <br/> BAZNAS </h5>\n    </div>\n  </div> -->\n  <script>$('#tampilanlama').delay(10).fadeIn('slow');</script>\n<!-- Start of LiveChat (www.livechatinc.com) code -->\n<!-- <script type=\"text/javascript\">\n\n\n$( document ).ready(function() {\n    \n    var head = document.getElementsByTagName('head')[0];\n      var js = document.createElement(\"script\");\n\n      js.type = \"text/javascript\";\n\n      if ($(window).width() >= 994)\n      {\n        // alert($(window).width());\n          js.src = \"https://chat.sociomile.com/5cd51933ae263800688b4596\";\n      }\n      // alert($(window).width());\n\n      head.appendChild(js);\n});\n</script> -->\n<script type=\"text/javascript\">\nwindow.__lc = window.__lc || {};\nwindow.__lc.license = 7527371;\n(function() {\n  if ($(window).width() >= 994){\n    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;\n    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';\n    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);\n  }\n  \n})();\n</script>\n<!-- End of LiveChat code -->\n\n\n<script type=\"text/javascript\" src=\"https://baznas.go.id/application/views/assets/js/custom-baznas.js\"></script>\n\n</body>\n\n\n<!-- Footer -->\n\n\n <footer id=\"footer\" class=\"footer pb-0\" img src=\"https://baznas.go.id/application/views/assets/images/footer-bg.png\" style=\"background-color: #005331\" >\n\n\n\n    <div class=\"container pb-20\">\n      <div class=\"row multi-row-clearfix text-white\">\n        <div class=\"col-sm-6 col-md-3\">\n          <div class=\"text-center widget dark mb-20\"><img alt=\"logo baznas\" src=\"https://baznas.go.id/application/views/assets/images/logo.png\"><br><br>\n            <p class=\"font-13 text-center\" style=\"font-weight: bold;\">KANTOR PUSAT</p>\n            <p class=\"font-13\"> Alamat: Jl. Matraman Raya No.134, <br> Kb. Manggis, Kec. Matraman,<br> Jakarta Timur 13150 <br> Email: baznas@baznas.go.id <br> Telepon: +6221 21393600 <br> Fax.: +6221 3913777</p> \n          </div><br>\n\n        </div>\n        <div class=\"col-sm-6 col-md-3\">\n          <div class=\"widget dark\">\n            <h5 class=\"widget-title line-bottom\">KANTOR LAYANAN</h5>\n            <p class=\"font-13 mb-20\"> Alamat: Jl. Matraman Raya No.134, <br> Kb. Manggis, Kec. Matraman, <br> Jakarta Timur 13150<br> Email: layananmuzaki@baznas.or.id <br> Konfirmasi Donasi: +62 878 7737 3555 <br> Contact Center: +6221 3904555 <br> Fax.: +6221 3913777</p> \n\n\n\n              <ul class=\"\">\n                <li><a href=\"https://baznas.go.id/privacy\" style=\"font-weight: bold\" class=\"text-white\"><i class=\"fa fa-check-square-o mr-10 text-white\"></i> Kebijakan Privasi</a></li>\n                <li><a href=\"https://baznas.go.id/syaratdanketentuan\" style=\"font-weight: bold\" class=\"text-white\"><i class=\"fa fa-check-square-o mr-10 text-white\"></i> Syarat & Ketentuan</a></li>\n                <li><a href=\"https://baznas.go.id/faq\" style=\"font-weight: bold\" class=\"text-white\"><i class=\"fa fa-check-square-o mr-10 text-white\"></i> FAQ</a></li>\n              </ul>\n\n          </div>\n        </div>  \n        <div class=\"col-sm-6 col-md-3\">\n          <div class=\"widget dark\">\n            <h5 class=\"widget-title line-bottom\">IKUTI KAMI DI:</h5>\n              <ul class=\"list-divider list-border\">\n                <li><a href=\"https://www.facebook.com/badanamilzakat/\" target=\"_blank\" class=\"text-white\"><i class=\"fa fa-facebook-square mr-10 text-white\"></i> Badan Amil Zakat Nasional</a></li>\n                <li><a href=\"https://twitter.com/baznasindonesia\" target=\"_blank\" class=\"text-white\"><i class=\"fa fa-twitter mr-10 text-white\"></i> @baznasindonesia</a></li>\n                <li><a href=\"https://www.instagram.com/baznasindonesia/\" target=\"_blank\" class=\"text-white\"><i class=\"fa fa-instagram mr-10 text-white\"></i> @baznasindonesia</a></li>\n                <li><a href=\"https://bit.ly/BAZNASTVOfficial\" target=\"_blank\" class=\"text-white\"><i class=\"fa fa-youtube-square mr-10 text-white\"></i> BAZNAS TV</a></li>\n                <li><a href=\"https://id.linkedin.com/in/baznas-indonesia-26537217a\" target=\"_blank\" class=\"text-white\"><i class=\"fa fa-linkedin mr-10 text-white\"></i> Badan Amil Zakat Nasional</a></li>\n                <li><a href=\"http://bit.ly/zakibaznas\" target=\"_blank\" class=\"text-white\"><i class=\"fa fa-check-square-o mr-10 text-white\"></i> LINE @zakibaznas</a></li>\n                <li><a href=\"https://bit.ly/kontakBAZNAS\" target=\"_blank\" class=\"text-white\"><i class=\"fa fa-whatsapp mr-10 text-white\"></i> Layanan Muzaki</a></li>\n              </ul>\n          </div>\n        </div>\n        <div class=\"col-sm-6 col-md-3\">\n          <div class=\"widget dark\">\n            <h5 class=\"widget-title line-bottom\">Layanan Publik</h5>\n              <ul class=\"list-divider list-border\">\n<!--                 <li><a href=\"http://pid.baznas.go.id/\" target=\"_blank\"><i class=\"fa fa-check-square-o mr-10 text-black-light\"></i> PID BAZNAS</a></li\n -->                <li><a href=\"http://pid.baznas.go.id/\" target=\"_blank\" class=\"text-white\"><i class=\"fa fa-check-square-o mr-10 text-white\"></i> PID BAZNAS</a></li>\n                <li><a href=\"http://pustaka.baznas.go.id/\" target=\"_blank\" class=\"text-white\"><i class=\"fa fa-check-square-o mr-10 text-white\"></i> PUSTAKA BAZNAS</a></li>\n              </ul><br>\n\n            <h5 class=\"widget-title line-bottom\">IKUTI INFORMASI KAMI</h5>\n            <form id=\"footer-mailchimp-subscription-form\" class=\"newsletter-form mt-10\">\n              <label class=\"display-block\" for=\"mce-EMAIL\"></label>\n              <div class=\"input-group\">\n                <input type=\"email\" value=\"\" name=\"EMAIL\" placeholder=\"masukkan email Anda\"  class=\"form-control\" data-height=\"37px\" id=\"mce-EMAIL\">\n                <span class=\"input-group-btn\">\n                  <button type=\"submit\" class=\"btn btn-colored btn-theme-colored m-0\"><i class=\"fa fa-paper-plane-o text-white\"></i></button>\n                </span>\n              </div>\n            </form><br>\n\n            <!-- Mailchimp Subscription Form Validation-->\n<!--             <script type=\"text/javascript\">\n              $('#footer-mailchimp-subscription-form').ajaxChimp({\n                  callback: mailChimpCallBack,\n                  url: '//baznas.us18.list-manage.com/subscribe/post?u=251729640a39ee7815a9755d6&amp;id=51ddeae4a7'\n              });\n\n              function mailChimpCallBack(resp) {\n                  // Hide any previous response text\n                  var $mailchimpform = $('#footer-mailchimp-subscription-form'),\n                      $response = '';\n                  $mailchimpform.children(\".alert\").remove();\n                  if (resp.result === 'success') {\n                      $response = '<div class=\"alert alert-success\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>' + resp.msg + '</div>';\n                  } else if (resp.result === 'error') {\n                      $response = '<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>' + resp.msg + '</div>';\n                  }\n                  $mailchimpform.prepend($response);\n              }\n            </script> -->\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"container-fluid p-20\" style=\"background-color: #ffcb05\">\n      <div class=\"row text-center\">\n        <div class=\"col-md-12\">\n          <p class=\"font-11 m-0 text-theme-colored\">Copyright &copy;2019 BAZNAS. All Rights Reserved</p>\n        </div>\n      </div>\n    </div>\n  </footer>\n  \n  <a href=\"https://baznas.go.id/bayarzakat\" style=\"position: fixed; bottom: 0; z-index: 9999; font-family: 'Roboto Condensed', sans-serif; font-weight: bold; background-color: red\" class=\"btn btn-block btn-flat text-white btn-sm mt-20 pt-10 pb-10 visible-xs visible-sm\" role=\"button\">BAYAR ZAKAT</a>\n\n<script>$('#survey').delay(5000).fadeIn('slow');</script>\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-64522324-8\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-64522324-8');\n</script>\n\n\n</body>\n</html>\n",
+			"file": "sandbox/index-classic.html",
+			"file_size": 113544,
+			"file_write_time": 131993757965293716,
+			"settings":
+			{
+				"buffer_size": 71001,
+				"encoding": "UTF-8",
+				"line_ending": "CR"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Java Compiler.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Java Compiler.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Pascal Compiler.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Pascal Compiler.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/Pascal Compiler.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: color ",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"l",
+				"LiveReload: Self test"
+			],
+			[
+				"live",
+				"LiveReload: Help"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			],
+			[
+				"",
+				"HTMLBeautify"
+			],
+			[
+				"repos",
+				"Package Control: Add Repository"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 158.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Agas/Downloads/SOURCEINDO.COM - porto-html-v7.4.0/HTML"
+	],
+	"file_history":
+	[
+		"/C/Users/Agas/AppData/Local/Temp/Rar$DIa6360.41767/database.php",
+		"/C/Users/Agas/AppData/Local/Temp/Rar$DIa15332.21070/database.php",
+		"/C/Users/Agas/AppData/Local/Temp/Rar$DIa20212.20548/INSTALL.md",
+		"/C/Users/Agas/Desktop/UAS PSD/bubble_asc.pas",
+		"/C/Users/Agas/Desktop/UAS PSD/bubble_desc.pas",
+		"/D/iglive/InstagramLive-PHP-master/config.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/htdocs/snip.it/css/style.min.css",
+		"/C/xampp/htdocs/snip.it/resources/lang/en.json",
+		"/C/xampp/htdocs/snip.it/resources/lang/en/passwords.php",
+		"/C/xampp/htdocs/snip.it/resources/lang/id/validation.php",
+		"/C/xampp/htdocs/snip.it/resources/lang/id/pagination.php",
+		"/C/xampp/htdocs/snip.it/resources/lang/id/auth.php",
+		"/C/xampp/htdocs/tupac.php",
+		"/C/xampp/htdocs/krs-unindra/abc.php",
+		"/C/xampp/htdocs/gramtek/login.php",
+		"/C/xampp/htdocs/speedcar/security.php",
+		"/C/xampp/htdocs/speedcar/core/config.php",
+		"/C/xampp/htdocs/snipit/config/app.php",
+		"/C/xampp/htdocs/snipit/resources/views/front/includes/footer.blade.php",
+		"/C/xampp/htdocs/rad1/app/views/layouts/main_layout.php",
+		"/C/xampp/htdocs/playstore/app/Providers/AppServiceProvider.php",
+		"/C/xampp/htdocs/playstore/config/database.php",
+		"/C/xampp/htdocs/www.playstore.io/.local.env",
+		"/C/xampp/htdocs/www.playstore.io/public/assets/css/app.css",
+		"/C/xampp/htdocs/cari/index.php",
+		"/C/xampp/htdocs/www.secret.io/bootstrap/autoload.php",
+		"/C/xampp/htdocs/www.secret.io/app/Providers/AppServiceProvider.php",
+		"/C/xampp/htdocs/www.secret.io/config/app.php",
+		"/C/xampp/htdocs/www.playstore.io/config/app.php",
+		"/C/xampp/htdocs/webalizer/app.php",
+		"/C/xampp/htdocs/poker/index.php",
+		"/C/xampp/htdocs/medium/core/database/connect.php",
+		"/C/xampp/htdocs/couch/config.php",
+		"/C/xampp/htdocs/mediumish/index.php",
+		"/C/xampp/htdocs/mediumish/post.php",
+		"/C/xampp/htdocs/mediumish/author.php",
+		"/C/xampp/htdocs/couch/mediumish/index.php",
+		"/C/xampp/htdocs/mylibrary/myLibrary/upload/bootstrap/settings.php",
+		"/D/Android/php_web_services/settings.php",
+		"/D/Android/php_web_services/includes/connection.php",
+		"/C/xampp/htdocs/wpmedium/wp-config.php",
+		"/C/xampp/htdocs/blog/index.php",
+		"/C/xampp/htdocs/yii/framework/db/CDbConnection.php",
+		"/C/xampp/htdocs/www.ocr.ku/protected/config/database-modelo.php",
+		"/C/xampp/htdocs/www.ocr.ku/protected/controllers/ArquivoController.php",
+		"/C/xampp/htdocs/blog/bl-themes/devtheme/php/lib/jsondb.php",
+		"/C/xampp/htdocs/blog/bl-content/databases/site.php",
+		"/C/xampp/htdocs/blog/bl-content/databases/syslog.php",
+		"/C/xampp/htdocs/blog/bl-content/databases/security.php",
+		"/C/xampp/htdocs/blog/bl-content/databases/users.php",
+		"/D/NetBeansProjects/AplikasiPemakaman/Database/dbsewamakam.sql",
+		"/C/Users/Agas/Downloads/Compressed/700 php scripts/SearchScript/SearchScript/search.php",
+		"/C/xampp/htdocs/remindme/app/src/MySQL/MySQL.php",
+		"/C/xampp/htdocs/remindme/config/config.settings.php",
+		"/C/xampp/htdocs/rumahsakit/_config/conn.php",
+		"/C/xampp/htdocs/rumahsakit/index.php",
+		"/C/xampp/htdocs/rumahsakit/auth/login.php",
+		"/C/xampp/htdocs/kosan/index.php",
+		"/C/Users/Agas/Downloads/1datashare/codecanyon-10442576-ecommerce-online-shop-app/E-CommerceAndroidApp/admin_panel/ecommerce/verify-purchase-code.php",
+		"/C/xampp/htdocs/kostku/app/views/partials/index/register.php",
+		"/C/xampp/htdocs/logrest/config/config.php",
+		"/C/xampp/htdocs/logrest/index.php",
+		"/C/xampp/htdocs/logrest/views/not_logged_in.php",
+		"/C/xampp/htdocs/logrest/translations/en.php",
+		"/C/xampp/htdocs/agas/search/app/models/SearchLimit.php",
+		"/C/xampp/htdocs/agas/search/app/models/Wrapper.php",
+		"/C/xampp/htdocs/agas/search/app/models/Info.php",
+		"/C/xampp/htdocs/agas/search/app/core/View.php",
+		"/C/xampp/htdocs/sipkak/view/tekgram/config.php",
+		"/C/xampp/htdocs/sipkak/view/tekgramsk/config.php",
+		"/C/xampp/htdocs/absenqr/readme.rst",
+		"/C/xampp/htdocs/absenqr/system/database/DB.php",
+		"/C/xampp/htdocs/absenqr/system/core/Config.php",
+		"/C/xampp/htdocs/absenqr/application/config/config.php",
+		"/C/xampp/htdocs/absenqr/application/config/database.php",
+		"/C/xampp/htdocs/absenqr/application/views/presensi_list.php",
+		"/C/xampp/htdocs/qrscan/classes/database.php",
+		"/C/Users/Agas/Downloads/1datashare/pbs.php",
+		"/C/xampp/htdocs/bazold/assets/css/materialize.css",
+		"/C/xampp/htdocs/bazold/public/login_form.php",
+		"/C/Users/Agas/AppData/Roaming/Sublime Text 3/Packages/User/ColorPicker.sublime-settings",
+		"/C/xampp/htdocs/couch/mediumish/post.php",
+		"/C/xampp/htdocs/couch/mediumish/author.php",
+		"/C/xampp/htdocs/poker/includes/configure.php",
+		"/C/xampp/htdocs/poker/includes/inc_index.php",
+		"/C/xampp/htdocs/poker/includes/settings.php",
+		"/C/xampp/htdocs/webalizer/database.php",
+		"/C/xampp/htdocs/playstore/config/app.php",
+		"/C/xampp/htdocs/paste/theme/default/css/style.css",
+		"/C/xampp/htdocs/snip.it/app/Providers/AppServiceProvider.php",
+		"/C/xampp/htdocs/paste/theme/default/css/bootstrap.css",
+		"/C/xampp/htdocs/paste/theme/custom/css/paste.css",
+		"/C/xampp/htdocs/paste/theme/custom/css/style.css",
+		"/C/xampp/htdocs/paste/theme/default/css/paste.css",
+		"/C/xampp/htdocs/paste/config.php",
+		"/C/xampp/htdocs/snip.it/css/style.css",
+		"/C/xampp/htdocs/krs-unindra/koneksi.php",
+		"/C/xampp/htdocs/gadgetshop/db.php",
+		"/C/Users/Agas/Desktop/cetakpdf/Zb.txt",
+		"/C/xampp/htdocs/imabuilder/system/class/jsmIonic.php",
+		"/C/Users/Agas/Documents/Agas -1242/btc",
+		"/C/xampp/htdocs/beemusic/config/database.php",
+		"/C/xampp/htdocs/phoenix/database/db.sql",
+		"/C/xampp/htdocs/phoenix/profile.php",
+		"/C/xampp/htdocs/gramtek/index.php",
+		"/C/xampp/htdocs/gramtek/udemy.txt",
+		"/C/Users/Agas/Downloads/Compressed/fileshare.ro_wchat/codecanyon-18047319-wchat-fully-responsive-phpajax-chat/demo/function.php",
+		"/C/xampp/htdocs/demotekgram/function.php",
+		"/C/xampp/htdocs/demotekgram/install/index.php",
+		"/C/xampp/htdocs/demotekgram/config.php",
+		"/C/xampp/htdocs/demotekgram/dbcon.php",
+		"/C/xampp/htdocs/demotekgram/chatjs/custom.js",
+		"/C/xampp/htdocs/gramtek/includes/function.php",
+		"/C/xampp/htdocs/gramtek/chat.php",
+		"/C/xampp/htdocs/demotekgram/chat.php",
+		"/C/xampp/htdocs/gramtek/config.php",
+		"/C/xampp/htdocs/gramtek/includes/dbcon.php",
+		"/C/xampp/htdocs/gramtek/includes/setting.php",
+		"/C/xampp/htdocs/demotekgram/responsive.php",
+		"/C/xampp/htdocs/demotekgram/index.php",
+		"/C/xampp/htdocs/imabuilder/system/class/LoremIpsum.php",
+		"/C/xampp/htdocs/playstore/bootstrap/app.php",
+		"/C/Users/Agas/Downloads/___NOT APPLICABLE___/SnipItbin/snip.it/app/Providers/AppServiceProvider.php",
+		"/C/Users/Agas/Downloads/1htmltemp/bl-plugins/ReadingTime/plugin.php",
+		"/C/Users/Agas/Downloads/___NOT APPLICABLE___/workspace/config.php",
+		"/C/xampp/htdocs/textolite/index.php",
+		"/C/Users/Agas/Downloads/ionic-mobile-app-builder-v18.12.10/setup.php"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\Agas\\Downloads\\SOURCEINDO.COM - porto-html-v7.4.0\\HTML"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 77816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4383,
+								4383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1365.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2208,
+								2208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sandbox/index-classic.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 71001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5879,
+								7485
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2085.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
